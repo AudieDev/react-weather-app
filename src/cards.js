@@ -1,6 +1,6 @@
 import React from 'react';
-import './Card.css';
-var moment = require('moment');
+import './Cards.css';
+const moment = require('moment');
 
 class Card extends React.Component {
   // Props: day, key(index)
@@ -12,7 +12,7 @@ class Card extends React.Component {
 
     const imgURL = "owf owf-"+ this.props.day.weather[0].id +" owf-5x red"
 
-    // const farenheit = (parseInt(this.props.day.main.temp) - 273.15) * (9/5) + 32
+    const farenheit = (parseInt(this.props.day.main.temp) - 273.15) * (9/5) + 32
 
 
     return (

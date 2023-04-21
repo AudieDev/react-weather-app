@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import Card from './Cards.js';
 import DegreeToggle from './DegreeToggle.js';
 import apiConfig from './apiKeys';
 
